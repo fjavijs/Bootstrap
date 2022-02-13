@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Página de inicio modificada</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="login">
+    <div class="container w-75 bg-white mt-5 rounded-3 d-flex">
+        <!-- Se añade d-none d-sm-block para ocultar la imagen a dispositivios moviles-->
+        <div class="pt-5 position-relative col-6 d-none d-sm-block">
+            <!-- Se añade img-fluid para que la imagen se adapte según dimensiones del dispositivo-->
+            <img src="img/login.svg" class="img-fluid" alt="login">
+        </div>
+        <!--Se añade col-12 col-sm-6 para que el formulario ocupe el ancho total de dispositivo movil
+        -->
+        <form action="./principal.html" class="col-12 col-sm-6 pt-5 pt-sm-0 ">
+            <div class="d-flex flex-column ">
+                <h1 class="fw-bold text-center py-5 d-sm-none">Bienvenido</h1>
+                <h2 class="fw-bold text-center py-5 d-none d-sm-block">Bienvenido</h2>
+            </div>
+            <div class="pb-3">
+                <label for="password" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" name="email">
+            </div>
+            <div class="pb-3">
+                <label for="password" class="form-label ">Contraseña</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+            <div class="input-text pb-3">
+                <input type="checkbox" name="connected" class="form-check-input">
+                <label>Mantenerme conectado</label>
+            </div>
+            <div>
+                <input type="submit" class="form-control bg-danger text-white" value="Iniciar Sesion">
+            </div>
+            <div class="my-3 pb-5">
+                <span>No tienes cuenta? <a href="#">Regístrate</a></span><br>
+                <span><a href="#">Recuperar Password</a></span>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>

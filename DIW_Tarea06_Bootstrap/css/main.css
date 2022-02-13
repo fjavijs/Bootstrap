@@ -1,0 +1,38 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body.login {
+    display: flex;
+    justify-content: center;
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+}
+h1{
+    font-size: 2.5rem;
+}
+.callout-primary {
+    border-left-width: 6px;
+    border-left-color: #428bca;
+}
+.callout-success {
+   border-left-width: 6px;
+   border-left-color: #1cc88a;
+}
+.callout-info {
+   border-left-width: 6px;
+   border-left-color: #36b9cc;;
+}
+#menu{
+    margin-right:2rem;
+}
+.mobile{
+    width: 10rem;
+    height: 10rem;
+}
+.list-group-item{
+    font-weight:bolder;
+
+}
+
+
